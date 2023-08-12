@@ -1,0 +1,10 @@
+[Unit]
+Description=Collect Kernel Logs Service
+
+[Service]
+Type=simple
+ExecStart=/home/mohammad/Desktop/collect_kernel_logs.sh
+
+[Install]
+WantedBy=default.target
+
